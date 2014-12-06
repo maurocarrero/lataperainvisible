@@ -2,8 +2,6 @@ var express = require('express');
 var app = express();
 var newrelic = require('newrelic');
 
-console.log(newrelic);
-
 // EXPRESS SERVER
 app.use(express.logger());
 app.use(express.static(__dirname + '/app'));
