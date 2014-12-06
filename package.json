@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "~3.3.4"
+    "express": "~3.3.4",
+    "newrelic": "~1.14.1"
   },
   "engines": {
     "node": "0.10.x",
@@ -20,8 +21,5 @@
   "keywords": [
     "node",
     "heroku"
-  ],
-  "devDependencies": {
-    "newrelic": "~1.14.1"
-  }
+  ]
 }
