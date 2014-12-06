@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
-app.use(express.logger());
+var newrelic = require('newrelic');
 
-app.get('/', function(request, response) {
-  response.send('La tapera invisible has born!');
-});
+// EXPRESS SERVER
+app.use(express.logger());
+app.use(express.static(__dirname + '/app'));
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {

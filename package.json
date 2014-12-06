@@ -20,5 +20,8 @@
   "keywords": [
     "node",
     "heroku"
-  ]
+  ],
+  "devDependencies": {
+    "newrelic": "~1.14.1"
+  }
 }
