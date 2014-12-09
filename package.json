@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "socket.io": "~1.2.1",
-    "grunt-cli": "~0.1.13"
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.5"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
