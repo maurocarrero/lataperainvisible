@@ -1,2 +1,5 @@
 node_modules
-newrelic_agent.log
+dist
+.tmp
+.sass-cache
+app/bower_components

@@ -34,7 +34,7 @@ var helpers = (function () {
 							}
 						});
 					} else {
-						send404(response);
+						service.send404(response);
 					}
 				});
 			}
