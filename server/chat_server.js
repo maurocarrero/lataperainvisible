@@ -14,7 +14,7 @@ function joinRoom(socket, room) {
 	currentRoom[socket.id] = room;
 	socket.emit('joinResult', { room: room });
 	socket.broadcast.to(room).emit('message', {
-		text: nickNames[socket.id] + ' has joined ' + room + '.';
+		text: nickNames[socket.id] + ' has joined ' + room + '.'
 	});
 
 	var usersInRoom = io.sockets.clients(room);
@@ -35,7 +35,7 @@ function joinRoom(socket, room) {
 }
 
 exports.listen = function (server) {
-	
+	var socketio = require('socket.io');
 	io = socketio.listen(server);
 	
 	io.set('log level', 1);

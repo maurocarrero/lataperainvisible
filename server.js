@@ -2,7 +2,7 @@
 
 // dependencies
 var http = require('http');
-var socketio = require('socketio');
+var socketio = require('socket.io');
 var helpers = require('./server/helpers.js');
 var chatServer = require('./server/chat_server.js');
 
