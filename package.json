@@ -2,7 +2,8 @@
   "name": "tapera",
   "version": "0.0.0",
   "dependencies": {
-    "socket.io": "~1.2.1"
+    "socket.io": "~1.2.1",
+    "grunt-cli": "~0.1.13"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
