@@ -1,1 +1,1 @@
-web: grunt serve:dist --force
+web: grunt serve:dist
