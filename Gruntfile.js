@@ -381,7 +381,7 @@ module.exports = function (grunt) {
     'karma'
   ]);
 
-  grunt.registerTask('heroku:production', ['build', 'serve']);
+  grunt.registerTask('heroku:production', ['build', 'serve:dist']);
 
   grunt.registerTask('build', [
     'clean:dist',
