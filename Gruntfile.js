@@ -312,7 +312,7 @@ module.exports = function (grunt) {
       dist: [
         'compass:dist',
         'copy:styles',
-        // 'imagemin',
+        'imagemin',
         'svgmin',
         'htmlmin'
       ]
@@ -381,7 +381,7 @@ module.exports = function (grunt) {
     'karma'
   ]);
 
-  grunt.registerTask('heroku:production', ['build', 'serve:dist']);
+  grunt.registerTask('heroku:production', 'serve');
 
   grunt.registerTask('build', [
     'clean:dist',
