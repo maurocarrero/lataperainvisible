@@ -20,7 +20,7 @@
     "grunt-contrib-jshint": "~0.7.1",
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-watch": "~0.5.2",
-    "grunt-google-cdn": "~0.2.0",
+    "grunt-google-cdn": "~0.3.0",
     "grunt-newer": "~0.5.4",
     "grunt-ngmin": "~0.0.2",
     "grunt-rev": "~0.1.0",
@@ -32,12 +32,16 @@
     "karma-ng-scenario": "~0.1.0",
     "grunt-karma": "~0.9.0",
     "karma": "~0.12.28",
-    "karma-ng-html2js-preprocessor": "~0.1.2"
+    "karma-ng-html2js-preprocessor": "~0.1.2",
+    "snyk": "^1.85.0"
   },
   "engines": {
     "node": ">=0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
-  }
+    "test": "grunt test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
