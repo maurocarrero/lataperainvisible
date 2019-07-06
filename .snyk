@@ -18,25 +18,11 @@ patch:
         patched: '2019-07-06T13:44:02.095Z'
     - grunt-contrib-connect > connect > connect-timeout > debug:
         patched: '2019-07-06T13:44:02.095Z'
-    - karma > connect > body-parser > debug:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > connect-timeout > debug:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > express-session > debug:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > morgan > debug:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-index > debug:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-static > send > debug:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > compression > debug:
-        patched: '2019-07-06T14:14:34.192Z'
+    - grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2019-07-06T14:21:11.093Z'
   'npm:mime:20170907':
     - grunt-contrib-connect > connect > serve-static > send > mime:
         patched: '2019-07-06T13:44:02.095Z'
-    - karma > connect > serve-static > send > mime:
-        patched: '2019-07-06T14:14:34.192Z'
   'npm:ms:20170412':
     - grunt-contrib-connect > connect > connect-timeout > ms:
         patched: '2019-07-06T13:44:02.095Z'
@@ -58,35 +44,13 @@ patch:
         patched: '2019-07-06T13:44:02.095Z'
     - grunt-contrib-connect > connect > serve-favicon > ms:
         patched: '2019-07-06T13:44:02.095Z'
-    - karma > connect > connect-timeout > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > morgan > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > express-session > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > compression > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-index > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > body-parser > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > connect-timeout > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-static > send > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-static > send > debug > ms:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-favicon > ms:
-        patched: '2019-07-06T14:14:34.192Z'
+    - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2019-07-06T14:21:11.093Z'
   'npm:negotiator:20160616':
     - grunt-contrib-connect > connect > compression > accepts > negotiator:
         patched: '2019-07-06T13:44:02.095Z'
     - grunt-contrib-connect > connect > serve-index > accepts > negotiator:
         patched: '2019-07-06T13:44:02.095Z'
-    - karma > connect > compression > accepts > negotiator:
-        patched: '2019-07-06T14:14:34.192Z'
-    - karma > connect > serve-index > accepts > negotiator:
-        patched: '2019-07-06T14:14:34.192Z'
   SNYK-JS-LODASH-450202:
     - snyk > @snyk/dep-graph > lodash:
         patched: '2019-07-06T13:45:16.317Z'
@@ -110,6 +74,42 @@ patch:
         patched: '2019-07-06T13:45:16.317Z'
     - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
         patched: '2019-07-06T13:45:16.317Z'
-  'npm:ws:20160920':
-    - karma > socket.io > socket.io-client > ws:
-        patched: '2019-07-06T14:14:34.192Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2019-07-06T14:13:58.464Z'
+    - grunt-contrib-jshint > jshint > lodash:
+        patched: '2019-07-06T14:13:58.464Z'
+    - karma > log4js > slack-node > requestretry > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > log4js > mailgun-js > async > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > combine-lists > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > log4js > hipchat-notifier > lodash:
+        patched: '2019-07-06T14:21:11.093Z'
+  'npm:minimatch:20160620':
+    - grunt-contrib-imagemin > imagemin > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-07-06T14:13:58.464Z'
+    - grunt-contrib-imagemin > imagemin > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-07-06T14:13:58.464Z'
+    - grunt-contrib-imagemin > imagemin > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-07-06T14:21:11.093Z'
+    - grunt-contrib-imagemin > imagemin > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-07-06T14:21:11.093Z'
+  'npm:hoek:20180212':
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2019-07-06T14:21:11.093Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-06T14:21:11.093Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2019-07-06T14:21:11.093Z'
