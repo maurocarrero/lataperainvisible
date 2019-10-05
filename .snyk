@@ -113,3 +113,8 @@ patch:
   'npm:tunnel-agent:20170305':
     - karma > log4js > loggly > request > tunnel-agent:
         patched: '2019-07-06T14:21:11.093Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T06:10:07.525Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T06:10:07.525Z'
