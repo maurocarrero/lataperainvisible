@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -113,3 +113,24 @@ patch:
   'npm:tunnel-agent:20170305':
     - karma > log4js > loggly > request > tunnel-agent:
         patched: '2019-07-06T14:21:11.093Z'
+  SNYK-JS-LODASH-567746:
+    - grunt-contrib-watch > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt-karma > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - karma > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt-contrib-jshint > jshint > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2020-05-01T06:11:41.912Z'
