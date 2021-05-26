@@ -2,7 +2,7 @@
   "name": "tapera",
   "version": "0.0.0",
   "dependencies": {
-    "socket.io": "~2.0.0",
+    "socket.io": "~2.4.0",
     "grunt-cli": "~1.3.0",
     "grunt": "~1.0.3",
     "grunt-autoprefixer": "~0.4.0",
@@ -31,7 +31,7 @@
     "time-grunt": "~0.2.1",
     "karma-ng-scenario": "~0.1.0",
     "grunt-karma": "~3.0.0",
-    "karma": "~3.0.0",
+    "karma": "~5.0.8",
     "karma-ng-html2js-preprocessor": "~0.1.2",
     "snyk": "^1.192.3"
   },
