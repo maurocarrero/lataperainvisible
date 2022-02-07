@@ -31,7 +31,7 @@
     "time-grunt": "~0.2.1",
     "karma-ng-scenario": "~0.1.0",
     "grunt-karma": "~3.0.0",
-    "karma": "~3.0.0",
+    "karma": "~6.3.14",
     "karma-ng-html2js-preprocessor": "~0.1.2",
     "snyk": "^1.192.3"
   },
